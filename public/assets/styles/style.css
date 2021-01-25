@@ -1,0 +1,77 @@
+h1 {
+  text-align: center;
+}
+
+label {
+  font-size: 18px;
+}
+
+select {
+  font-size: 15px;
+  width: 50%;
+}
+
+#error {
+  display: none;
+  text-align: center;
+}
+
+#loading {
+  display: none;
+}
+
+#load-more-btn {
+  display: none;
+  border: 2px solid lightgray;
+  font-size: 16px;
+  margin: auto;
+}
+
+#submit {
+  padding: 7px;
+  border-radius: 3px;
+  border: 2px gray solid;
+  font-size: 15px;
+}
+
+#rover-select,
+#submit {
+  margin: auto;
+  text-align: center;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  margin: 2em 3em;
+}
+
+.content {
+  margin: 0px auto;
+}
+.filters {
+  min-width: 255px;
+  padding: 3px;
+  border: 3px solid lightgray;
+  border-radius: 25px;
+  height: min-content;
+}
+
+.filter-name {
+  font-weight: bold;
+  font-size: 22px;
+  margin: auto;
+  font-variant: all-petite-caps;
+  text-align: center;
+}
+
+.filter-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.gallery-item {
+  width: 175px;
+  margin: 5px;
+}
